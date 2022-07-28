@@ -754,6 +754,7 @@ hr {
 .main-contact {
     width: 100%;
     min-width: 40%;
+    /* padding-top: 50px; */
 }
 
 .main-contact__info {
@@ -944,10 +945,10 @@ hr {
     align-items: center;
 }
 
-.tanirovka{
+.tanirovka {
     position: absolute;
-    background-color: black ;   
-    opacity: 0.5;  
+    background-color: black;
+    opacity: 0.5;
     top: -505px;
     left: 0;
     z-index: 10;
@@ -955,7 +956,7 @@ hr {
     height: 500px;
 }
 
-.tanirovka{
+.tanirovka {
     position: relative;
 }
 
@@ -1003,7 +1004,129 @@ hr {
 }
 
 
+/* DRIVERS-CONTACT  */
+.drivers-contact {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
 
+.drivers-hero {
+    padding-bottom: 70px;
+}
+
+.drivers-inner {
+    display: flex;
+    align-items: center;
+}
+
+.drivers-inner-img-left {
+    margin-left: 110px;
+}
+
+.drivers-inner-img-right {
+    margin-right: 90px;
+}
+
+.drivers-inner-content {
+    max-width: 550px;
+}
+
+.drivers-inner-title {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    color: #111;
+}
+
+.drivers-inner-info {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #111111;
+    opacity: 0.72;
+}
+
+
+.drivers-contacts {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+
+.drivers-wrap {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.drivers-wrap-title {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 92px;
+    color: #111;
+}
+
+.drivers-wrap-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #111;
+    opacity: 0.64;
+}
+
+.drivers-list-wrap {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.drivers-wrap-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.drivers-wrap-item {
+    padding: 38px 36px;
+    max-width: 300px;
+    height: 342px;
+    left: 172px;
+    top: 3663px;
+    background: #f8f8f8;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.drivers-wrap-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.drivers-wrap-item-img {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.drivers-wrap-item-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #111;
+}
+
+.drivers-wrap-item-info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111;
+    opacity: 0.64;
+}
 
 
 
